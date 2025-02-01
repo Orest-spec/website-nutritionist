@@ -48,3 +48,56 @@ href="Kontakt.html">Kontakt</a></li>
 <img src="tortilla.jpg" alt="Healthy food" width="150" height="150">
 
 </html>
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oferta Dietetyczna</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Перемикачі тарифів -->
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="standard">Standard</button>
+            <button class="tab-btn" data-tab="premium">Premium</button>
+            <button class="tab-btn" data-tab="vip">VIP</button>
+        </div>
+
+        <!-- Вміст вкладок -->
+        <div class="tab-content active" id="standard">
+            <h2>Dieta Standard</h2>
+            <ul class="features">
+                <li>Podstawowy plan żywieniowy</li>
+                <li>Brak wymiany posiłków</li>
+                <li>Podstawowa lista zakupów</li>
+            </ul>
+        </div>
+
+        <div class="tab-content" id="premium">
+            <h2>Dieta Premium</h2>
+            <ul class="features">
+                <li><span class="highlight">Spersonalizowany jadłospis na <b>10 dni</b></span></li>
+                <li>Eliminacja produktów nielubianych</li>
+                <li>Wymiana posiłków w aplikacji</li>
+                <li>Interaktywna lista zakupów</li>
+                <li class="highlight-green">Natychmiastowy dostęp do aplikacji</li>
+            </ul>
+        </div>
+
+        <div class="tab-content" id="vip">
+            <h2>Dieta VIP</h2>
+            <ul class="features">
+                <li>Pełna personalizacja jadłospisu</li>
+                <li>Konsultacje z dietetykiem</li>
+                <li>Pełny dostęp do aplikacji i treningów</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

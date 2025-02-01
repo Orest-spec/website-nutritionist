@@ -113,7 +113,6 @@ ul {
 ul li {
      list-style: none;
      display: inline-block;
-     float: left;
      line-height: 100px;
 }
 
@@ -130,7 +129,73 @@ ul li a:hover {
     color: red;
 }
 
-/* Images */
-img {
-    
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Стилізація вкладок */
+.tabs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.tab-btn {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.tab-btn.active {
+    background: #d4efdf;
+    border: 1px solid #58d68d;
+}
+
+/* Контент вкладок */
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* Список функцій */
+.features {
+    list-style: none;
+    padding: 0;
+}
+
+.features li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.highlight {
+    background: yellow;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.highlight-green {
+    background: #d4efdf;
+    padding: 5px;
+    border-radius: 5px;
 }
