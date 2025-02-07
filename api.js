@@ -14,3 +14,20 @@ document.addEventListener("DOMContentLoaded", function() {
     });
    });
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    let dropdowns = document.querySelectorAll(".dropdown-btn");
+
+    dropdowns.forEach(button => {
+        button.addEventListener("click", function() {
+            this.classList.toggle("active");
+
+            let dropdownContent = this.nextElementSibling;
+            if (dropdownContent.style.display === "block") {
+                dropdownContent.style.display = "none";
+            } else {
+                dropdownContent.style.display = "block";
+            }
+        });
+    });
+});
