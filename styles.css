@@ -212,3 +212,15 @@ body {
     border-radius: 10px;
 }
 
+/* Kontakt */
+.contact {
+    background-color: gold;
+    padding: 5px;
+    display: flex;
+}
+
+.contact-list {
+    background-color: #333;
+    color: #ccc;
+    padding: 10px;
+}
