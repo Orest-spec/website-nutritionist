@@ -213,14 +213,10 @@ body {
 }
 
 /* Kontakt */
-.contact {
-    background-color: gold;
+.contact-text {
+    color: wheat;
     padding: 5px;
-    display: flex;
-}
+    display: block;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
 
-.contact-list {
-    background-color: #333;
-    color: #ccc;
-    padding: 10px;
 }
