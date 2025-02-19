@@ -215,8 +215,14 @@ body {
 /* Kontakt */
 .contact-text {
     color: wheat;
-    padding: 5px;
+    padding: 10px;
     display: block;
     background: linear-gradient(to right, #ff7e5f, #feb47b);
 
+}
+
+.notification {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    display: block;
+    padding: 10px;
 }
