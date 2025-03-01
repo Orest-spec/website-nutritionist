@@ -226,3 +226,19 @@ body {
     display: block;
     padding: 10px;
 }
+
+/* Dlaczego moja strona */
+.habits {
+    color: #1e1e1e;
+    text-align: left;
+}
+
+.diet {
+    text-align: right;
+    color: #1e1e1e;
+}
+
+.filary {
+    color: #81e6d9;
+    padding: 5px;
+}
